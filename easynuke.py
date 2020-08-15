@@ -8,9 +8,9 @@ channel_names = ["nuked", "get nuked"]
 webhook_usernames = ["nuked", "get nuked"]
 nuke_on_join = False
 
-######################################################################################################################
-WAIT!!! DON'T TOUCH ANYTHING BELOW UNLESS YOU KNOW EXACTLY WHAT YOU ARE DOING!!! THIS MAY CAUSE SOME ISSUES WITH THE BOT!!!
-######################################################################################################################
+###############################################################################################################################
+# WAIT!!! DON'T TOUCH ANYTHING BELOW UNLESS YOU KNOW EXACTLY WHAT YOU ARE DOING!!! THIS MAY CAUSE SOME ISSUES WITH THE BOT!!! #
+###############################################################################################################################
 
 import discord, random, aiohttp
 from discord import Webhook, AsyncWebhookAdapter
