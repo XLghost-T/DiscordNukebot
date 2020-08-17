@@ -37,6 +37,12 @@ nuke_wait_time = 0
 >
 > kill : Nukes the server.
 >
+> sall : Spams all channels.
+>
+> ccr [amount] [name] : Creates channels.
+> 
+> cdel : Deletes all channels.
+>
 > logout : Exits the script.
 
 # Additional Notes
