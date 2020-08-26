@@ -1,6 +1,6 @@
 #BOT CONFIG
 token = ""
-prefix = ""
+prefix = "$"
 
 #NUKE CONFIG
 spam_messages = ["@everyone nuked", "@everyone get nuked"]
