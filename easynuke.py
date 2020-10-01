@@ -35,6 +35,8 @@ This script is connected to {C.WHITE}{bot.user}.
 
 {C.WHITE}Your bot's oauth2 link is {C.LIGHTBLUE_EX}https://discord.com/oauth2/authorize?client_id={bot.user.id}&permissions=8&scope=bot
 """)
+  
+bot.remove_command("help")
 
 @bot.command()
 async def cmds(ctx):
