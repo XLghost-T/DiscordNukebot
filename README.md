@@ -4,6 +4,8 @@ An easy to use, fully customizable discord nukebot, complete with webhook spammi
 # Setup and Usage
 To set up the bot, you'll need the bot token and a prefix. If you don't know how to get a discord bot token from the [developer portal](https://discord.com/developers) I suggest watching [this video.](https://www.youtube.com/watch?v=b61kcgfOm_4)
 
+***MAKE SURE THAT YOU TURN ON THE MEMBERS INTENT IN DISCORD DEVELOPER PORTAL OR MASS BAN WILL NOT WORK!!!***
+
 Once you obtain your bot token, paste it in the script as shown below. Make sure the token is IN THE QUOTATION MARKS (the token should be a string)
 ```py
 token = "NzQzOTU1Mzk3NjcyNDM1NzYy.XzcMdA.cSXie4geIGekaQkk6dXPnTjoJqc"
