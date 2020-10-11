@@ -23,7 +23,7 @@ from discord.ext.commands import *
 from colorama import Fore as C
 from colorama import Style as S
 
-bot = commands.Bot(command_prefix = prefix)
+bot = commands.Bot(command_prefix = prefix, intents = discord.Intents.all())
 
 @bot.event
 async def on_ready():
